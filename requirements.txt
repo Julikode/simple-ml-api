@@ -11,3 +11,4 @@ tensorflow
 pillow
 python-multipart
 numpy
+gdown
