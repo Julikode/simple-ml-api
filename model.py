@@ -7,3 +7,4 @@ def load_trained_model():
     if model_path.exists():
         return tf.keras.models.load_model(model_path)
     return None
+    
