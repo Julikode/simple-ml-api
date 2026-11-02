@@ -12,7 +12,7 @@ MODEL_DIR.mkdir(exist_ok=True)
 if not MODEL_PATH.exists():
     print("Модель не знайдено локально. Завантажуємо з Google Drive...")
     # Заміни < ТВОЇЙ_ID_ФАЙЛУ > на реальний ID з посилання Google Drive
-    file_id = "< ТВОЇЙ_ID_ФАЙЛУ >"
+    file_id = "< 16-UL8TAA1QjsxwsWmtAWhYTq-HmivO1v >"
     url = f"https://drive.google.com/uc?id={file_id}"
     gdown.download(url, str(MODEL_PATH), quiet=False)
 
